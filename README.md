@@ -1,30 +1,13 @@
-Agency Jekyll theme
+DerlaCon Jekyll Site
 ====================
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Jekyll source for generic static pages for the DerlaCon website.
+Loosely based on the Agency theme [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
-# How to use
+# Contributing
 
-###Portfolio 
+Any impatient nerds who want to speed this up should check out this project and reach out to Bedlam.
 
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
