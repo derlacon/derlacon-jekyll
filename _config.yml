@@ -2,9 +2,9 @@ url: https://derlacon.github.io
 baseurl: /derlacon-jekyll/
 
 # Site settings
-title: '"DerlaCon"'
+title: 'DerlaCon 2017'
 email: derlacon@delugen.org
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Awesome description here."
 
 
 # Team names, titles and social links

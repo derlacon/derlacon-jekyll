@@ -270,6 +270,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25) ), url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -297,7 +298,17 @@ header .intro-text .intro-heading {
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     font-weight: 700;
+	color: moccasin;
     line-height: 50px;
+}
+
+header .intro-text .intro-lead-out {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 22px;
+	color: moccasin;
+    /*font-style: italic;*/
+    line-height: 22px;
 }
 
 @media(min-width:768px) {
@@ -315,13 +326,22 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        /*margin-bottom: 50px;*/
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
     }
+
+    header .intro-text .intro-lead-out {
+        margin-bottom: 50px;
+        font-family: {{ site.data.template.font.secondary }};
+        font-size: 30px;
+        /*font-style: italic;*/
+        line-height: 40px;
+    }
+
 }
 
 section {
@@ -882,26 +902,48 @@ body {
     clear: none;
   }
   .schedule [data-room="room-1"] {
-    width: 25.53191%;
+    width: 12.76596%;
     float: left;
     margin-right: -100%;
     margin-left: 19.14894%;
     clear: none;
   }
   .schedule [data-room="room-2"] {
-    width: 25.53191%;
+    width: 12.76596%;
     float: left;
     margin-right: -100%;
     margin-left: 46.80851%;
     clear: none;
   }
   .schedule [data-room="room-3"] {
-    width: 25.53191%;
+    width: 12.76596%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
   }
+  .schedule [data-room="room-4"] {
+    width: 12.76596%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 19.14894%;
+    clear: none;
+  }
+  .schedule [data-room="room-5"] {
+    width: 12.76596%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 46.80851%;
+    clear: none;
+  }
+  .schedule [data-room="room-6"] {
+    width: 12.76596%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+
   .schedule .session .meta .room {
     display: none;
   }
@@ -912,5 +954,6 @@ body {
     margin-right: 0;
     clear: none;
   }
+
 }
 
