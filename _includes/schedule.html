@@ -1,15 +1,9 @@
 <!-- Services Section -->
 	<section id="satur" class="day">
         <header>
-            <h2>Saturday</h2>
-            <span data-room="room-1">Room 1</span>
-            <span data-room="room-2">Room 2</span>
-            <span data-room="room-3">Room 3</span>
-            <span data-room="room-4">Room 4</span>
-            <span data-room="room-5">Room 5</span>
-            <span data-room="room-6">Room 6</span>
+            <h2>Friday</h2>
         </header>
-
+        </div>
         {% for post in site.categories.session reversed %}
             {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
             {% if day == 'Saturday' %}
