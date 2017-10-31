@@ -381,7 +381,7 @@ section h3.section-subheading {
   /* border: 2px solid #CCC; */
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(7, 12%);
+  grid-template-columns: repeat(7, 14%);
   grid-template-rows: repeat(12, 6%);
   justify-content: center;
   align-content: end;
@@ -396,7 +396,7 @@ section h3.section-subheading {
 }
 
 .keglarp {
-  grid-column: 2/8;
+  grid-column: 2/7;
   grid-row: 9/15;
 }
 
@@ -406,7 +406,7 @@ section h3.section-subheading {
 }
 
 .chris-risen {
-  grid-column: 3/4;
+  grid-column: 5/6;
   grid-row: 3/8;
 }
 
@@ -416,8 +416,8 @@ section h3.section-subheading {
 }
 
 .axel-goblins {
-  grid-column: 2/3;
-  grid-row: 10/13;
+  grid-column: 6/7;
+  grid-row: 8/12;
 }
 
 .andy-delta {
@@ -436,7 +436,7 @@ section h3.section-subheading {
 }
 
 .andy-fate {
-  grid-column: 3/4;
+  grid-column: 2/3;
   grid-row: 9/14;
 }
 
@@ -446,12 +446,12 @@ section h3.section-subheading {
 }
 
 .joe-improv {
-  grid-column: 7/8;
+  grid-column: 3/4;
   grid-row: 7/9;
 }
 
 .rhea-mansions {
-  grid-column: 7/8;
+  grid-column: 3/4;
   grid-row: 8/12;
 }
 
@@ -477,10 +477,6 @@ section h3.section-subheading {
 
 .item5 {
   grid-column: 6 / 7;
-}
-
-.item6 {
-  grid-column: 7 / 8;
 }
 
 #portfolio .portfolio-item {
