@@ -311,6 +311,11 @@ header .intro-text .intro-lead-out {
     line-height: 22px;
 }
 
+header .logo {
+	width: 800px;
+    margin-bottom: 25px;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
