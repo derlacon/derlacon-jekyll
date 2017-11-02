@@ -489,6 +489,16 @@ section h3.section-subheading {
   grid-column: 6 / 7;
 }
 
+section#keglarp .kllogo {
+    margin-top: 30px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+section#keglarp .text-muted  {
+    font-size: 22px;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -850,10 +860,6 @@ section#contact:-ms-input-placeholder {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
-}
-
-section#contact .text-danger {
-    color: #e74c3c;
 }
 
 footer {
