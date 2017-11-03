@@ -898,10 +898,27 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #444;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+}
+
+ul.small-button li a {
+    margin-bottom: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    outline: 0;
+    color: #fff;
+    background-color: #444;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
 }
 
 ul.social-buttons li a:hover,
