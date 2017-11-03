@@ -425,6 +425,11 @@ section h3.section-subheading {
   grid-row: 8/12;
 }
 
+.brendan-camp {
+  grid-column: 5/6;
+  grid-row: 3/7;
+}
+
 .axel-goblins {
   grid-column: 2/3;
   grid-row: 14/17;
