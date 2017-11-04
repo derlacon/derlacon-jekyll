@@ -312,7 +312,7 @@ header .intro-text .intro-lead-out {
 }
 
 header .logo {
-	width: 200px;
+	width: 70%;
     margin-bottom: 25px;
 }
 
@@ -348,7 +348,8 @@ header .logo {
     }
 
 	header .logo {
-		width: 800px;
+		/*width: 800px;*/
+		width: 70%;
     	margin-bottom: 25px;
 	}
 
@@ -402,7 +403,7 @@ section h3.section-subheading {
   color: #fff;
   border-radius: 5px;
   padding: 10px;
-  font-size: 140%;
+  font-size: 100%;
 }
 
 .keglarp {
