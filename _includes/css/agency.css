@@ -421,6 +421,11 @@ section h3.section-subheading {
   grid-row: 3/8;
 }
 
+.richard-philly {
+  grid-column: 4/5;
+  grid-row: 3/7;
+}
+
 .jaydeb-silence {
   grid-column: 5/6;
   grid-row: 8/12;
@@ -510,6 +515,11 @@ section#keglarp .kllogo {
 
 section#keglarp .text-muted  {
     font-size: 22px;
+}
+
+section#keglarp .thumbnail:hover {
+    width:auto;
+    height:auto;
 }
 
 #portfolio .portfolio-item {
